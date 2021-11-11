@@ -6,9 +6,10 @@ setup(
         author="Andrej Karpathy",
         author_email="andrej.karpathy@gmail.com",
         packages=["minGPT"],
-        package_dir={"minGPT":"minGPT"},
         url="https://github.com/karpathy/minGPT",
         license="MIT",
-        install_requires=["numpy >= 1.8",
-                          "torch >= 1.9"]
+        install_requires=[
+                "numpy >= 1.8",
+                "torch >= 1.9"
+        ]
 )
