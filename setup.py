@@ -5,7 +5,7 @@ setup(
         version="0.0.1",
         author="Andrej Karpathy",
         author_email="andrej.karpathy@gmail.com",
-        packages=["minGPT"],
+        packages=["mingpt"],
         url="https://github.com/karpathy/minGPT",
         license="MIT",
         install_requires=[
